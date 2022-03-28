@@ -1,0 +1,158 @@
+/* My styling sheet */
+html, body {
+    background-color:rgb(71, 58, 92);
+      color:white ;
+      font-family: 'Staatliches', cursive;
+      letter-spacing: 3px;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; 
+  }
+ /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  width: 100%; 
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #6804aa;
+  color: white;
+}
+  h1 {
+    padding-top: 10px;
+    font-size: 3.0em;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    color: #ff2a4a;
+  }
+  .banner {
+    background:url("https://s3.envato.com/files/324565904/programming-code-icon-abstract-robot-holding-programming-code-symbol-hand-coding-background_127544-1269(p55ujefr6il).jpg");
+    background-size: cover;
+    height: 300px;
+  }
+  #overlay {
+    background: rgba(0, 0, 0, 0.76);
+    height: 1000px;
+  }
+  .skills {
+    background:url("https://s3.envato.com/files/324565904/programming-code-icon-abstract-robot-holding-programming-code-symbol-hand-coding-background_127544-1269(p55ujefr6il).jpg");
+    background-size: cover;
+    min-height: 100%;
+    padding-bottom: 40px;
+    padding-top:40px;
+  }
+  
+  .resume {
+    top: 0px;
+    position: relative;
+    font-size: 70%;
+    width: 145px;
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer; 
+    padding-bottom: 8px;
+  }
+  .contact {
+    top: 0px;
+    position: relative;
+    font-size: 70%;
+    width: 140px;
+    display: inline-block;
+    cursor: pointer; 
+    padding-bottom: 8px;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    line-height: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+  }
+  
+  .contact-section {
+    background-color:rgb(71, 58, 92);
+    background-size: cover;
+    height: 200px;
+    padding-top: 0px;
+  }
+  
+  .contact-buttons {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    background-color: #4267b2;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    background: #0E76A8;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+  }
+  
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 10px;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+  }
